@@ -1,0 +1,116 @@
+{
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "description": "sᴜᴘᴇʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ғᴏʀ ᴍᴀɴᴀɢɪɴɢ ʏᴏᴜʀ ᴘʀᴏ ɢʀᴏᴜᴘs",
+   "env": {
+      "ALLOW_EXCL": {
+         "description": "sᴇᴛ ᴛʜɪs ᴛᴏ ᴛʀᴜᴇ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ! ᴛᴏ ʙᴇ ᴀ ᴄᴏᴍᴍᴀɴᴅ ᴘʀᴇғɪx ᴀʟᴏɴɢ ᴡɪᴛʜ /",
+         "value": "True"
+      },
+      "BAN_STICKER": {
+         "description": "ɪᴅ ᴏғ ᴛʜᴇ sᴛɪᴄᴋᴇʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴡʜᴇɴ ʙᴀɴɴɪɴɢ ᴘᴇᴏᴘʟᴇ.",
+         "required": false,
+         "value": ""
+      },
+      "DEL_CMDS": {
+         "description": "sᴇᴛ ᴛʜɪs ᴛᴏ ᴛʀᴜᴇ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴄᴏᴍᴍᴀɴᴅ ᴍᴇssᴀɢᴇs ғʀᴏᴍ ᴜsᴇʀs ᴡʜᴏ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴛʜᴇ ᴘᴇʀᴍs ᴛᴏ ʀᴜɴ ᴛʜᴀᴛ ᴄᴏᴍᴍᴀɴᴅ.",
+         "value": "True" 
+      },
+      "ENV": {
+         "description": "sᴇᴛᴛɪɴɢ ᴛʜɪs ᴛᴏ ᴀɴʏᴛʜɪɴɢ ᴡɪʟʟ ᴇɴᴀʙʟᴇ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ᴠᴀʀɪᴀʙʟᴇs.",
+         "value": "ANYTHING"
+      },
+      "SQLALCHEMY_DATABASE_URI": {
+         "description": "ʏᴏᴜʀ ᴘᴏsᴛɢʀᴇs sǫʟ ᴅʙ, ᴇᴍᴘᴛʏ ᴛʜɪs ғɪᴇʟᴅ ɪғ ʏᴏᴜ ᴅᴏɴᴛ ʜᴀᴠᴇ ᴏɴᴇ.",
+         "required": false,
+         "value": "sqldbtype://username:pw@hostname:port/db_name"
+      },      
+      "OWNER_ID": {
+         "description": "ʏᴏᴜʀ ᴜsᴇʀ ɪᴅ ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
+         "value": "412094015"
+      },
+      "OWNER_USERNAME": {
+         "description": "ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ʟɪᴋᴇ @PeRcY_JaCkSoN_xD",
+         "value": "@mkspali"
+      },
+      "DEV_USERS": {
+         "description": "ɪᴅ ᴏғ ᴜsᴇʀs ᴡʜᴏ ᴀʀᴇ ᴅᴇᴠ (ᴄᴀɴ ᴜsᴇ /ᴘʏ ᴇᴛᴄ.) (ɪғ ʏᴏᴜ ᴅᴏɴᴛ ᴡᴀɴᴛ ᴛʜᴇɴ ᴋᴇᴇᴘ ᴛʜɪs ᴠᴀʟᴜᴇ 1882937735)",
+         "required": true,
+         "value": "412094015"
+      },
+      "GBAN_LOGS": {
+         "description": "ɢʙᴀɴ ʟᴏɢ ᴄʜᴀɴɴᴇʟ, ɪɴᴄʟᴜᴅᴇ ᴛʜᴇ ʜʏᴘʜᴇɴ ᴛᴏᴏ: ᴇx: -123456",
+         "value": "-1001438874893"
+      },
+      "CASH_API_KEY": {
+         "description": "ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ᴄᴜʀʀᴇɴᴄʏ ᴄᴏɴᴠᴇʀᴛᴇʀ",
+         "value": "-xyz"
+      },
+      "TIME_API_KEY": {
+         "description": "ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ᴛɪᴍᴇᴢᴏɴᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ",
+         "value": "HW6LQCYX43HS"
+      },
+      "AI_API_KEY": {
+         "description": "ғᴏʀ ᴀᴄᴛɪᴠᴀᴛᴇ ᴄʜᴀᴛʙᴏᴛ",
+         "value": "x_y_z"
+      },
+      "API_OPENWEATHER": {
+         "description": "ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ᴡᴇᴀᴛʜᴇʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ",
+         "value": "5c5adc2bc1832de6943e3f4467e84c39"
+      },
+      "PORT": {
+         "description": "ᴘᴏʀᴛ ᴛᴏ ᴜsᴇ ғᴏʀ ʏᴏᴜʀ ᴡᴇʙʜᴏᴏᴋs.",
+         "required": false,
+         "value": ""
+      },
+      "STRICT_GBAN": {
+         "description": "ᴇɴғᴏʀᴄᴇ ɢʙᴀɴs ᴀᴄʀᴏss ɴᴇᴡ ɢʀᴏᴜᴘs ᴀs ᴡᴇʟʟ ᴀs ᴏʟᴅ ɢʀᴏᴜᴘs. ᴡʜᴇɴ ᴀ ɢʙᴀɴɴᴇᴅ ᴜsᴇʀ ᴛᴀʟᴋs, ʜᴇ ᴡɪʟʟ ʙᴇ ʙᴀɴɴᴇᴅ.",
+         "value": "True"
+      },
+      "SUDO_USERS": {
+         "description": "ᴀ sᴘᴀᴄᴇ sᴇᴘᴀʀᴀᴛᴇᴅ ʟɪsᴛ ᴏғ ᴜsᴇʀ ɪᴅs ᴡʜᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀssɪɢɴ ᴀs sᴜᴅᴏ ᴜsᴇʀs (ɪғ ʏᴏᴜ ᴅᴏɴᴛ ᴡᴀɴᴛ ᴛʜᴇɴ ᴋᴇᴇᴘ ᴛʜɪs ᴠᴀʟᴜᴇ 1882937735).",
+         "required": true,
+         "value": "412094015"
+      },
+      "TIGER_USERS": {
+         "description": "ᴀ sᴘᴀᴄᴇ sᴇᴘᴀʀᴀᴛᴇᴅ ʟɪsᴛ ᴏғ ᴜsᴇʀ ɪᴅs ᴡʜᴏ ʏᴏᴜ ᴡᴀɴɴᴀ ᴀssɪɢɴ ᴀs ᴛɪɢᴇʀ ᴜsᴇʀs (ɪғ ʏᴏᴜ ᴅᴏɴᴛ ᴡᴀɴᴛ ᴛʜᴇɴ ᴋᴇᴇᴘ ᴛʜɪs ᴠᴀʟᴜᴇ 1882937735).",
+         "required": true,
+         "value": "412094015"
+      },
+      "TOKEN": {
+         "description": "ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ (ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ʙᴏᴛ ᴛᴏ ᴡᴏʀᴋ).",
+         "required": true,
+         "value": ""
+      },
+      "URL": {
+         "description": "ᴛʜᴇ ʜᴇʀᴏᴋᴜ ᴀᴘᴘ ᴜʀʟ :-  https://<appname>.herokuapp.com/",
+         "required": false,
+         "value": ""
+      },
+      "WEBHOOK": {
+         "description": "sᴇᴛᴛɪɴɢ ᴛʜɪs ᴛᴏ ᴀɴʏᴛʜɪɴɢ ᴡɪʟʟ ᴇɴᴀʙʟᴇ ᴡᴇʙʜᴏᴏᴋs.",
+         "required": false,
+         "value": ""
+      },
+      "WHITELIST_USERS": {
+         "description": "ᴀ sᴘᴀᴄᴇ sᴇᴘᴀʀᴀᴛᴇᴅ ʟɪsᴛ ᴏғ ᴜsᴇʀ ɪᴅs ᴡʜᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀssɪɢɴ ᴀs ᴡʜɪᴛᴇʟɪsᴛᴇᴅ - ᴄᴀɴ'ᴛ ʙᴇ ʙᴀɴɴᴇᴅ ᴡɪᴛʜ ʏᴏᴜʀ ʙᴏᴛ.",
+         "required": false,
+         "value": "412094015"
+      }
+   },
+   "keywords": [
+      "telegram",
+      "group",
+      "manager",
+      "bot"
+   ],
+   "logo": "https://user-images.githubusercontent.com/84823049/120094205-a4157400-c13c-11eb-9a72-8d1111809eb5.jpg",
+   "name": "ᴊᴀʀᴠɪs_RMCMG",
+   "repository": "https B://github.com/emmamillerofficial/JARVIS_RMCMG"
+}
